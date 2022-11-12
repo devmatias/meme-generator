@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://i.pinimg.com/originals/52/e2/db/52e2dbef7685a6e14544240a4172db15.gif');
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+#info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#info-section {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  width: 620px;
+  gap: 20px;
+  font-size: 24px;
+}
+
+#info-section p {
+  width: 50px;
+}
+
+#text-input {
+  height: 30px;
+  width: 87.5%;
+  border-radius: 10px;
+  border: 1px solid rgba(155 , 155 , 155 , 0.5);
+  box-shadow: 1px 1px rgba(155 , 155 , 155 , 0.5);
+  background-color: white;
+}
+
+button {
+  text-transform: uppercase;
+  border: 2px solid rgba(126 , 110 , 124 , 0.5);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgb(204 , 86 , 106);
+}
+
+#info-section button {
+  height: 34px;
+  width: 145px;
+  font-size: 15px;
+  background-color: orange;
+}
+
+input[ type = 'file' ] {
+  display: none;
+}
+
+.file-button {
+  text-transform: uppercase;
+  font-size: 15px;
+  border: 2px solid rgba(126 , 110 , 124 , 0.5);
+  border-radius: 10px;
+  background-color: orange;
+  text-align: center;
+  cursor: pointer;
+  padding: 7px 8px;
+  transition: 0.5s;
+}
+
+.file-button:hover {
+  background-color: rgb(204 , 86 , 106);
+}
+
+.input-position {
+  height: 30px;
+  width: 180px;
+  border-radius: 10px;
+  border: 1px solid rgba(155 , 155 , 155 , 0.5);
+  box-shadow: 1px 1px rgba(155 , 155 , 155 , 0.5);
+  background-color: white;
+}
+
+#preview-controller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#meme-image-container {
+  background-color: white;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+
+#meme-text {
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  position: absolute;
+}
+
+.thumb-image {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#meme-image {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+#button-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#button-section button {
+  text-transform: uppercase;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+}
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
+
+#thumb-section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 24px;
+  height: 490px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#fire:hover {
+  background-color: orange;
+}
+
+#water:hover {
+  background-color: rgb(90 , 141 , 161);
+}
+
+#earth:hover {
+  background-color: brown;
+}

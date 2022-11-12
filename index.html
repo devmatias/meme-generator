@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Meme Generator Project</h1>
+    </header>
+    <section id="info-container">
+        <div id="info-section">
+            <p>Texto:</p>
+            <input type="text" name="meme-input" id="text-input" maxlength="60" placeholder="Digite seu texto">
+            <label for="input-top-down">↕:
+                <input type="number" name="" id="input-top-down" class="input-position"
+                    placeholder="Digite a posição vertical">
+            </label>
+            <label for="input-right-left">↔ :
+                <input type="number" name="" id="input-right-left" class="input-position"
+                    placeholder="Digite a posição horizontal">
+            </label>
+            <button type="button" id="apply-position">Aplicar</button>
+            <p>Foto:</p>
+            <label for="meme-insert" class="file-button"> Escolher Arquivo
+                <input type="file" name="" id="meme-insert">
+            </label>
+        </div>
+    </section>
+
+    <section id="preview-controller">
+        <div id="meme-image-container">
+            <img src="" alt="" id="meme-image">
+            <p id="meme-text"></p>
+        </div>
+        <div id="thumb-section">
+            <p>Amostras:</p>
+            <img src="imgs/meme1.png" alt="meme da monica" id="meme-1" class="thumb-image">
+            <img src="imgs/meme2.png" alt="meme do cartaz" id="meme-2" class="thumb-image">
+            <img src="imgs/meme3.png" alt="meme do drogado" id="meme-3" class="thumb-image">
+            <img src="imgs/meme4.png" alt="meme do anime" id="meme-4" class="thumb-image">
+        </div>
+    </section>
+    <section id="button-section">
+        <button type="button" id="fire">Fire 🔥 </button>
+        <button type="button" id="water">Water 💧 </button>
+        <button type="button" id="earth">Earth 🌱 </button>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
